@@ -11,6 +11,13 @@ namespace Project1
         public static void DriveCar()
         {
             Console.WriteLine("I am driving a car");
+            Console.ReadLine();
+            
         }
+        public void NewFeature()
+        {
+            Console.WriteLine("This is a new feature");
+        }
+        
     }
 }
